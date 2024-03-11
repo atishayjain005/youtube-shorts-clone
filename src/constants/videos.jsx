@@ -1,7 +1,7 @@
 const Videos = [
   {
     id: 1,
-    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-1.mp4",
+    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-4.mp4",
     channel: "One and Only",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -12,7 +12,7 @@ const Videos = [
   },
   {
     id: 2,
-    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-2.mp4",
+    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-3.mp4",
     channel: "Lorem Ipsum",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -23,7 +23,7 @@ const Videos = [
   },
   {
     id: 3,
-    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-3.mp4",
+    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-2.mp4",
     channel: "Lorem Ipsum",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -34,7 +34,7 @@ const Videos = [
   },
   {
     id: 4,
-    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-4.mp4",
+    url: "https://public-vivekananda.s3.ap-south-1.amazonaws.com/video-1.mp4",
     channel: "Lorem Ipsum",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
