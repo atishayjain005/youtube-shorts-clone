@@ -38,6 +38,8 @@ html {
   background-color: black;
   display: grid;
   place-items: center;
+  height: -webkit-fill-available;
+
 }
 
 .app__videos {
@@ -47,6 +49,8 @@ html {
   max-width: 700px;
   overflow: scroll;
   scroll-snap-type: y mandatory;
+  height: -webkit-fill-available;
+
 }
 
 

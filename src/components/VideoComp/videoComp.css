@@ -13,7 +13,7 @@
   height: 100%;
   transition: opacity 500ms ease-in-out;
   height: -webkit-fill-available;
-  z-index: -1;
+  z-index: 0;
 }
 .video_cover {
   position: absolute;

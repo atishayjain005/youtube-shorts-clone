@@ -35,7 +35,11 @@ export default function VideoComp({
   const videoRef = useRef(null);
 
   const handleTimeUpdate = () => {
-    setCurrentTime(videoRef.current.currentTime);
+    if (videoRef.current.currentTime === videoRef.current.duration) {
+      setCurrentTime(0);
+    } else {
+      setCurrentTime(videoRef.current.currentTime);
+    }
   };
 
   const handleSubscribe = () => {
@@ -77,14 +81,12 @@ export default function VideoComp({
 
   const handleLikeClick = () => {
     if (!isLiked) {
-      // If the user has not liked the video yet
-      setLikeCount(likeCount + 1); // Increment the like count
-      setIsLiked(true); // Set the user's like status to true
+      setLikeCount(likeCount + 1);
+      setIsLiked(true);
     }
     if (isLiked) {
-      // If the user has not liked the video yet
-      setLikeCount(likeCount - 1); // Increment the like count
-      setIsLiked(false); // Set the user's like status to true
+      setLikeCount(likeCount - 1);
+      setIsLiked(false);
     }
   };
 
